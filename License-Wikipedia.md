@@ -1,8 +1,7 @@
 This program uses text sourced from the following Wikipedia pages
 
 https://en.wikipedia.org/wiki/Liber_Abaci  
-
-https://en.wikipedia.org/wiki/Indian_mathematics
+https://en.wikipedia.org/wiki/Indian_mathematics  
 https://en.wikipedia.org/wiki/Fibonacci_number
 
 
