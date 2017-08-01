@@ -1,3 +1,8 @@
+print ("""This is a slightly long winded story and I still haven’t learnt
+how to page screens so when you see a prompt like this ">"
+just press the Enter/Return key
+""")
+input("> ")
 print ("""1. Do you want to hear a story about the Golden Mean?
 or
 2. A gist of one of the main principles of the 11th century treatise
@@ -11,7 +16,7 @@ user_choice = input("Pick 1 or 2 > ")
 while True:
     if user_choice == '1':
         print("\nSucker! It’s the same story. :) ")
-        input("\nPress the Enter/Return key to go back in time!")
+        input("\nPress the Enter/Return key to go back in time! > ")
         print()
         break
     elif user_choice == '2':
@@ -22,6 +27,9 @@ while True:
 
 print ("\n""""Liber Abaci (1202, also spelled as Liber Abbaci) is a historic
 book on arithmetic by Leonardo of Pisa""")
+input("> ")
+print ("also known as Fibonacci!")
+
 
 
 
