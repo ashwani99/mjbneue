@@ -1,98 +1,112 @@
 import time #Doing this from some SO answer, beacuse I want to pause my script.
 
 
-# print ("""This is a slightly long winded story and I still haven’t learnt
-# how to page screens so when you see a prompt like this ">"
-# just press the Enter/Return key
-# """)
-# input("> ")
-# print ("""1. A gist from one of the chapters of the 11th century treatise
-# “Liber Abaci”
-# or?
-# 2. Do you want to hear a story about the Golden Mean?""")
-#
-# user_choice = int(input("Pick 1 or 2 > "))
-#
-# user_choice = input("Pick 1 or 2 > ")
-#
-# while True:
-#     if user_choice == '1':
-#         print("\nSucker! It’s the same story. :) ")
-#         input("\nPress the Enter/Return key to go back in time! > ")
-#         break
-#     elif user_choice == '2':
-#         break
-#     else:
-#         user_choice = input('Pick 1 or 2? >')
+print (""" Let me tell you a story.
+
+Do you want to hear about
+
+1. A gist from one of the chapters of the 11th century treatise
+“Liber Abaci”
+or
+2. A story about the Golden Mean?
+""")
+
+user_choice = input("Pick 1 or 2 > ")
+
+while True:
+    if user_choice == '1':
+        print("\nSucker! It’s the same story. :) ")
+        input("\nPress the Enter/Return key to go back in time! > ")
+        break
+    elif user_choice == '2':
+        break
+    else:
+        user_choice = input('Pick 1 or 2? >')
 
 
-# print ("\n""""Liber Abaci (1202, also spelled as Liber Abbaci) is a historic
-# book on arithmetic by Leonardo of Pisa""")
-# time.sleep(2)
-# print ("also known as Fibonacci!")
-# time.sleep(2)
-# print ("""Another example in this chapter, describing the growth of a population of
-# rabbits, was the origin of the Fibonacci sequence for which the author is most
-# famous today.""")
-# input("Press the Enter/Return key to continue")
-# print("\n""""You know Fibonacci numbers""")
-# print("""while there are lots of other numbers that can be summed in a series,
-# only the Fibonacci series, (i.e the sequence that starts with 0 & 1) approaches
-# what we call the Golden Ratio (symbolised \u03C6 or phi)""")
-#
-# print("""So just what is the Golden Ratio""")
-# print("""The golden ratio is a special number approximately equal to
-# 1.6180339887498948482. """)
-# print("""or more accurately,  1 + sqrt\{5}
-#                      ------------
-#                            2""")
-# print("""To illustrate:
-# -----------------------------------
-# A            B                    C
-#
-# The ratio of the long segment (BC) to the short segment (AC) is the *same* as
-# the ratio of the total segment (AC) to the long segment (BC)
-# """)
-# print("""Let’s do this to actually get it""")
-#
-# get_1 = int(input("Give me a 1: "))
-# while True:
-#     if get_1 == 1:
-#         break
-#     else:
-#         get_1 = int(input("Give me a 1: "))
-#
-# get_2 = int(input("Give me a 2: "))
-# while True:
-#     if get_2 == 2:
-#         break
-#     else:
-#         get_2 = int(input("Give me a 2: "))
-#
-# get_3 = int(input(f"""Adding {get_1} & {get_2} would get you? : """))
-# while True:
-#     if get_3 == 3:
-#         break
-#     else:
-#         get_3 = int(input("Give me the sum of 1+2: "))
-#
-# get_5 = int(input(f"""Add that to {get_2} would get you? : """))
-# while True:
-#     if get_5 == 5:
-#         break
-#     else:
-#         get_5 = int(input("Give me the sum of 3+2: "))
-#
-# print ("""Let’s fast forward this a bit """)
-# time.sleep(3)
-# num_1, num_2 = get_3, get_5
-# while num_2 < 150:
-#     print(num_2, end=' ')
-#     num_1, num_2 = num_2, num_1 + num_2
-#
-# print ("""and so on and so forth…""")
+print ('*'*80)
+print ("\n""""Liber Abaci (1202, also spelled as Liber Abbaci) is a historic
+book on arithmetic by Leonardo of Pisa""")
+time.sleep(1.5)
+print ("also known as Fibonacci!")
+time.sleep(1.5)
+print ("""Another example in this chapter, describing the growth of a population of
+rabbits, was the origin of the Fibonacci sequence for which the author is most
+famous today.""")
+time.sleep(1.5)
+print ('*'*80)
+input("Press the Enter/Return key to continue")
+print ('*'*80)
+print("\n""""You know Fibonacci numbers""")
+time.sleep(1.5)
+print("""while there are lots of other numbers that can be summed in a series,
+only the Fibonacci series, (i.e the sequence that starts with 0 & 1) approaches
+what we call the Golden Ratio (symbolised \u03C6 or phi)""")
+time.sleep(1.5)
+print("""So just what is the Golden Ratio?""")
+time.sleep(1.5)
+print("""The golden ratio is a special number approximately equal to
+1.6180339887498948482. """)
+time.sleep(1.5)
+print("""or more accurately,  1 + sqrt\{5}
+                     ------------
+                           2""")
+time.sleep(1.5)
+print("""To illustrate:
+-----------------------------------
+A            B                    C
 
-print("""Let’s see this across domains …""")
+The ratio of the long segment (BC) to the short segment (AC) is the *same* as
+the ratio of the total segment (AC) to the long segment (BC)
+""")
+print ('*'*80)
+input("Press the Enter/Return key to continue")
+
+print("""
+Let’s do this to actually get it""")
+
+get_1 = int(input("Give me a 1: "))
+while True:
+    if get_1 == 1:
+        break
+    else:
+        get_1 = int(input("Give me a 1: "))
+
+get_2 = int(input("Give me a 2: "))
+while True:
+    if get_2 == 2:
+        break
+    else:
+        get_2 = int(input("Give me a 2: "))
+
+get_3 = int(input(f"""Adding {get_1} & {get_2} would get you? : """))
+while True:
+    if get_3 == 3:
+        break
+    else:
+        get_3 = int(input("Give me the sum of 1+2: "))
+
+get_5 = int(input(f"""Add that to {get_2} would get you? : """))
+while True:
+    if get_5 == 5:
+        break
+    else:
+        get_5 = int(input("Give me the sum of 3+2: "))
+
+print ("""Let’s fast forward this a bit """)
+time.sleep(1.5)
+num_1, num_2 = get_3, get_5
+while num_2 < 150:
+    print(num_2, end=' ')
+    num_1, num_2 = num_2, num_1 + num_2
+
+print ("""and so on and so forth…
+
+""")
+print ('*'*80)
+input("Press the Enter/Return key to continue")
+print("""
+Let’s see this across domains …""")
 print("What do you want to know about? : ")
 domain=input("name, place, animal, thing … or type quit to quit? > ")
 while True:
@@ -179,6 +193,8 @@ It truly is Nature’s wonder!
 
 To hear it told even more beautifully, watch this video
 https://www.youtube.com/watch?v=O2wU-HT7FiM
+
+Goodbye!
 
 
 """)
