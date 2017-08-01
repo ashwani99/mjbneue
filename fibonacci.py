@@ -9,9 +9,14 @@ or
 
 user_choice = input("Pick 1 or 2 > ")
 
-
-# while user_choice == 1 or user_choice == 2
-#     break
+while True:
+    if user_choice == '1':
+        print(user_choice)
+        break
+    elif user_choice == '2':
+        print(user_choice)
+        break
+    user_choice = input('Pick 1 or 2? >')
 
 # if user_choice == 1:
 #     print "Hello!"
