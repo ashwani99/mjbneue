@@ -1,5 +1,9 @@
 This program uses text sourced from the following Wikipedia pages
 
+https://en.wikipedia.org/wiki/Liber_Abaci
+https://en.wikipedia.org/wiki/Indian_mathematics
+https://en.wikipedia.org/wiki/Fibonacci_number
+
 
 This content is licensed under the Text of [*Creative Commons Attribution-ShareAlike 3.0 Unported License*](https://creativecommons.org/licenses/by-sa/3.0/), which is included below.
 
