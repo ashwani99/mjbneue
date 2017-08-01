@@ -1,6 +1,6 @@
 import time #Doing this from some SO answer, beacuse I want to pause my script.
 
-
+# Setting up the story.
 print (""" Let me tell you a story.
 
 Do you want to hear about
@@ -24,6 +24,7 @@ while True:
         user_choice = input('Pick 1 or 2? >')
 
 
+# Explaining the concept, with data and a small demo
 print ('*'*80)
 print ("\n""""Liber Abaci (1202, also spelled as Liber Abbaci) is a historic
 book on arithmetic by Leonardo of Pisa""")
@@ -105,6 +106,9 @@ print ("""and so on and so forth…
 """)
 print ('*'*80)
 input("Press the Enter/Return key to continue")
+
+# Conclusion - Telling the user about the golden mean across domains
+
 print("""
 Let’s see this across domains …""")
 print("What do you want to know about? : ")
