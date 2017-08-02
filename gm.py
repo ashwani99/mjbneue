@@ -1,5 +1,5 @@
 # Doing this from some SO answer, because I want to pause my script.
-from time import sleep 
+from time import sleep
 
 # Setting up the story.
 print (""" Let me tell you a story.
@@ -29,31 +29,31 @@ while True:
 print ('*'*80)
 print ("\n""""Liber Abaci (1202, also spelled as Liber Abbaci) is a historic
 book on arithmetic by Leonardo of Pisa""")
-time.sleep(1.5)
+sleep(1.5)
 print ("also known as Fibonacci!")
-time.sleep(1.5)
+sleep(1.5)
 print ("""Another example in this chapter, describing the growth of a population of
 rabbits, was the origin of the Fibonacci sequence for which the author is most
 famous today.""")
-time.sleep(1.5)
+sleep(1.5)
 print ('*'*80)
 input("Press the Enter/Return key to continue")
 print ('*'*80)
 print("\n""""You know Fibonacci numbers""")
-time.sleep(1.5)
+sleep(1.5)
 print("""while there are lots of other numbers that can be summed in a series,
 only the Fibonacci series, (i.e the sequence that starts with 0 & 1) approaches
 what we call the Golden Ratio (symbolised \u03C6 or phi)""")
-time.sleep(1.5)
+sleep(1.5)
 print("""So just what is the Golden Ratio?""")
-time.sleep(1.5)
+sleep(1.5)
 print("""The golden ratio is a special number approximately equal to
 1.6180339887498948482. """)
-time.sleep(1.5)
+sleep(1.5)
 print("""or more accurately,  1 + sqrt\{5}
                      ------------
                            2""")
-time.sleep(1.5)
+sleep(1.5)
 print("""To illustrate:
 -----------------------------------
 A            B                    C
@@ -96,7 +96,7 @@ while True:
         get_5 = int(input("Give me the sum of 3+2: "))
 
 print ("""Let’s fast forward this a bit """)
-time.sleep(1.5)
+sleep(1.5)
 num_1, num_2 = get_3, get_5
 while num_2 < 150:
     print(num_2, end=' ')
