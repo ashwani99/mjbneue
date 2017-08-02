@@ -1,4 +1,5 @@
-import time #Doing this from some SO answer, beacuse I want to pause my script.
+# Doing this from some SO answer, because I want to pause my script.
+from time import sleep 
 
 # Setting up the story.
 print (""" Let me tell you a story.
