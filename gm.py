@@ -81,14 +81,14 @@ while True:
     else:
         get_2 = int(input("Give me a 2: "))
 
-get_3 = int(input(f"""Adding {get_1} & {get_2} would get you? : """))
+get_3 = int(input("""Adding {get_1} & {get_2} would get you? : """))
 while True:
     if get_3 == 3:
         break
     else:
         get_3 = int(input("Give me the sum of 1+2: "))
 
-get_5 = int(input(f"""Add that to {get_2} would get you? : """))
+get_5 = int(input("""Add that to {get_2} would get you? : """))
 while True:
     if get_5 == 5:
         break
